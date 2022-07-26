@@ -1,0 +1,1 @@
+[{"model": "node_emb_centrality", "datetime": "2022-02-26 13:14:49", "settings": {"centralities": "degree cen, betweenness cen, closeness cen", "methods": "dot_product_sigmoid", "niter": 1}, "roc": 0.8385202208816112, "ap": 0.8502286482426198}]
