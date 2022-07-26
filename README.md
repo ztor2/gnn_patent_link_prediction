@@ -21,6 +21,7 @@
 - **gae 폴더:** 그래프 오토인코더 모델 구축에 필요한 각종 함수를 포함합니다.
 - **sc_dw 폴더:** spectral clustering 및 DeepWalk 모델 구축에 필요한 각종 함수를 포함합니다.
 
+<br>
 #### <data 폴더>
 - **add_patent.xlsx:** 특허별 IPC를 나타낸 raw 데이터.
 - **idx2nodes.pkl / nodes2idx.pkl:** 문자열 타입인 IPC를 일반 index에 대응시키는 dictionary 파일. 네트워크 데이터가 오토인코더 모델에 들어갈 때 문자열 타입인 노드명이 소실되므로 추후 결과 분석에 필요하다.
@@ -30,6 +31,7 @@
 - **val_edges.pkl / val_non_edges.pkl:** validation 그래프의 edge/non-edge를 나타낸 리스트. 모델에 들어가는 데이터 형태를 맞추어주기 위해 필요.
 - **val_edges_name.pkl / val_non_edges_name.pkl:** val_edges.pkl / val_non_edges.pkl 를 원 노드명인 IPC로 나타낸 리스트. (실제로는 실험에 사용되지 않음)
 
+<br>
 #### <results 폴더>
 - **SC_results_ADD_patent.json:** spectral clustering 검증 실험 결과. (논문에는 수록되지 않음)
 - **DW_results_ADD_patent.json:** DeepWalk 검증 실험 결과. (논문에는 수록되지 않음)
