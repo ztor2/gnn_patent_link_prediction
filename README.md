@@ -23,13 +23,13 @@
 
 
 #### <data 폴더>
-- **add_patent.xlsx:** 특허별 IPC를 나타낸 raw 데이터.
-- **idx2nodes.pkl / nodes2idx.pkl:** 문자열 타입인 IPC를 일반 index에 대응시키는 dictionary 파일. 네트워크 데이터가 오토인코더 모델에 들어갈 때 문자열 타입인 노드명이 소실되므로 추후 결과 분석에 필요하다.
-- **original.graph:** 원 데이터를 모두 사용하여 구축한 IPC 네트워크 그래프.
-- **reduced_train.graph:** Reduced graph의 train 그래프.
-- **reduced_val.graph:** Reduced graph의 validation 그래프.
-- **val_edges.pkl / val_non_edges.pkl:** validation 그래프의 edge/non-edge를 나타낸 리스트. 모델에 들어가는 데이터 형태를 맞추어주기 위해 필요.
-- **val_edges_name.pkl / val_non_edges_name.pkl:** val_edges.pkl / val_non_edges.pkl 를 원 노드명인 IPC로 나타낸 리스트. (실제로는 실험에 사용되지 않음)<br><br>
+- **add_patent.xlsx:** 특허별 IPC를 나타낸 raw 데이터. (excel 파일)
+- **idx2nodes.pkl / nodes2idx.pkl:** 문자열 타입인 IPC를 일반 index에 대응시키는 dictionary 파일. 네트워크 데이터가 오토인코더 모델에 들어갈 때 문자열 타입인 노드명이 소실되므로 추후 결과 분석에 필요하다. (pickle 타입)
+- **original.graph:** 원 데이터를 모두 사용하여 구축한 IPC 네트워크 그래프. (json 타입)
+- **reduced_train.graph:** Reduced graph의 train 그래프. (json 타입)
+- **reduced_val.graph:** Reduced graph의 validation 그래프. (json 타입)
+- **val_edges.pkl / val_non_edges.pkl:** validation 그래프의 edge/non-edge를 나타낸 리스트. 모델에 들어가는 데이터 형태를 맞추어주기 위해 필요. (pickle 타입)
+- **val_edges_name.pkl / val_non_edges_name.pkl:** val_edges.pkl / val_non_edges.pkl 를 원 노드명인 IPC로 나타낸 리스트. (실제로는 실험에 사용되지 않음) (pickle 타입)<br><br>
 
 
 #### <results 폴더>
