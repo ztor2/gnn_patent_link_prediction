@@ -1,5 +1,6 @@
-### 그래프 신경망을 이용한 국방과학기술 융합 예측 code repository<br> 
-(Prediction of Defense Science and Technology Convergence using Graph Neural Networks)
+### 그래프 신경망을 이용한 국방과학기술 융합 예측 양상(Prediction of Defense Science and Technology Convergence using Graph Neural Networks)
+
+- http://www.riss.kr/link?id=A108282300
 
 
 <br>
